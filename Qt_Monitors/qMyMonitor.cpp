@@ -235,7 +235,7 @@ void qMyMonitor::recog_show_faces(const QVector<cv::Mat>& _faces_v)
 	{
 		std::cout << "scroll_Vlayout count is" << this->scroll_Vlayout->count() << std::endl;
 
-		if (this->scroll_Vlayout->count() > 200)
+		if (this->scroll_Vlayout->count() > 10)
 		{
 			QList<QLabel*> lbls = this->scroll_VWidget->findChildren<QLabel*>();
 			std::cout << "for each É¾³ý" << std::endl;
